@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "versionCode": 6,
+  "versionName": "1.4.1",
+  "minimumSupportedVersionCode": 1,
+  "mandatory": false,
+  "apkUrl": "https://github.com/andiimdevlp/streamshelf-releases/releases/download/v1.4.1/StreamShelf-1.4.1.apk",
+  "sha256": "02d41d964263dc710d29614f80e46b4c67cf93727d4ece30c31e2167fe03f5d1",
+  "sizeBytes": 3216946,
+  "publishedAt": "2026-07-30T03:16:49Z",
+  "releaseNotes": "## StreamShelf 1.4.1\n\n### Correções\n\n- nova splash screen animada durante os primeiros seis segundos;\n- remoção da tela preta antes da interface principal;\n- a tela para adicionar lista só aparece após o banco confirmar que não há listas salvas;\n- a verificação de atualização continua sendo executada durante a splash.\n- filmes, séries e canais organizados diretamente pelos grupos `group-title`;\n- menu lateral de grupos em telas largas e seletor horizontal em telas estreitas;\n- grupos de lançamentos sempre posicionados antes das demais categorias;\n- conteúdo principal respeita recortes e botões de navegação do Android;\n- reprodução em modo imersivo com as barras do sistema ocultas.\n- menus e ícones ajustados para 62,4% no celular em modo paisagem, com grade de cinco títulos por linha;\n- categorias selecionadas podem ser ocultadas por PIN dos menus, busca, favoritos e histórico, separadas em TV, filmes e séries;\n- listas M3U existentes agora permitem editar nome, URL e intervalo de atualização.\n\n## StreamShelf 1.4.0\n\nEsta versão inaugura o ciclo seguro de atualizações pelo GitHub.\n\n### Principais novidades\n\n- verificação automática de novas versões ao abrir o aplicativo;\n- download com validação de tamanho e SHA-256;\n- validação do pacote, `versionCode` e certificado antes da instalação;\n- bloqueio de origens e redirecionamentos não confiáveis;\n- hardening do APK release com R8, ofuscação e redução de recursos;\n- PIN protegido com PBKDF2-HMAC-SHA256 (600 mil iterações) e salt aleatório;\n- testes automatizados de segurança.\n\n> O StreamShelf não fornece listas, canais, filmes ou séries. O usuário é responsável pelas fontes configuradas no aplicativo.\n"
+}
